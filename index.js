@@ -9,5 +9,6 @@ import Home from './src/screens/Home';
 import { useSharedValue } from 'react-native-reanimated';
 import Transform from './src/AnimationScreens/Transform';
 import AnimationMethods from './src/AnimationScreens/AnimationMethods';
+import InterpolateAnimation from './src/AnimationScreens/InterpolateAnimation';
 
-AppRegistry.registerComponent(appName, () => AnimationMethods);
+AppRegistry.registerComponent(appName, () => InterpolateAnimation);
