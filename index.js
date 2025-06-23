@@ -10,5 +10,6 @@ import { useSharedValue } from 'react-native-reanimated';
 import Transform from './src/AnimationScreens/Transform';
 import AnimationMethods from './src/AnimationScreens/AnimationMethods';
 import InterpolateAnimation from './src/AnimationScreens/InterpolateAnimation';
+import TabGesture from './src/AnimationScreens/TabGesture';
 
-AppRegistry.registerComponent(appName, () => InterpolateAnimation);
+AppRegistry.registerComponent(appName, () => TabGesture);
