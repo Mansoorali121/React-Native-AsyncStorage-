@@ -11,5 +11,6 @@ import Transform from './src/AnimationScreens/Transform';
 import AnimationMethods from './src/AnimationScreens/AnimationMethods';
 import InterpolateAnimation from './src/AnimationScreens/InterpolateAnimation';
 import TabGesture from './src/AnimationScreens/TabGesture';
+import Pengesture from './src/AnimationScreens/Pengesture';
 
-AppRegistry.registerComponent(appName, () => TabGesture);
+AppRegistry.registerComponent(appName, () => Pengesture);
